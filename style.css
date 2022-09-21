@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #C2DED1;
+  color: #2E0249;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #dae8e1;
+  margin: 25px auto;
+  padding: 45px;
+  border: 3px solid #2E0249;
+  box-shadow: 0 0 16px rgba(0,0,0,0.3);
+}
+
+h1,
+h2 {
+  color: #A91079;
+  font-family: "Space Grotesk";
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #dd5a95;
+}
+
+li{
+  list-style: none;
+}
+
+ul {
+  display:inline-block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #2E0249;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
+@media screen and (max-width: 960px) {
+  .container {
+      width: 85%;
+  }
+
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ======================== */
+@media screen and (max-width: 600px) {
+  .container {
+      width: 90%;
+  }
+}
